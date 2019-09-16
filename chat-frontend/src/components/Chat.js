@@ -14,7 +14,7 @@ class Chat extends Component {
             messages: [],
             onlineUsers: [],
         }
-        this.socket = io('http://192.168.1.56:3001/', { query: { username: this.props.username, roomId: this.props.match.params.id } });
+        this.socket = io('http://localhost:3001/', { query: { username: this.props.username, roomId: this.props.match.params.id } });
         this.socket.on('online', (data) => this.setState({onlineUsers: data}));
         this.socket.on('message', (message) => {
             this.addMessage(message);
