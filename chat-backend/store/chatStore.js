@@ -30,7 +30,7 @@ class ChatStore {
         if(room) {
             room.removeUser(username);
         } else {
-            throw `Room ${roomId} not found`;
+            throw new Error(`Room ${roomId} not found`);
         }
     }
 
