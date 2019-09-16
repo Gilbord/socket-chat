@@ -13,7 +13,7 @@ class ChatStore {
     }
 
     removeRoom(roomId) {
-        this.rooms = [...this.rooms.filter(room => room.roomId !== roomId)]
+        this.rooms = this.rooms.filter(room => room.roomId !== roomId)
     }
 
     addUser(roomId, username) {
