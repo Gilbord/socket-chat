@@ -49,7 +49,7 @@ socket.on('connection', (sock) => {
     sock.on('message', (data, fn) => {
         console.log(`${username} says ${data}`);
         sock.to(roomId).emit('message', getMessage(username, data))
-        fn(getMessage('system', data));
+        fn(getMessage(username, data));
     })
 
     sock.on('disconnect', (reason) => {
