@@ -1,0 +1,29 @@
+.messageContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+.metaInfoContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-basis: 10%;
+}
+.messageFrom {
+    margin: 5px;
+}
+.messageTime {
+    margin: 5px;
+}
+.messageText {
+    margin: 5px;
+    text-align-last: left;
+    word-break: break-word;
+}
+.mainContainer {
+    flex-basis: 90%;
+}

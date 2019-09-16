@@ -1,0 +1,7 @@
+.messagesArea {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    overflow-y: auto;
+}
+

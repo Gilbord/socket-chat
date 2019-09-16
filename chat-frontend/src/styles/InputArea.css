@@ -1,0 +1,15 @@
+.inputAreaContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.textarea {
+    border: 1px solid #d3d9de;
+    font-size: 13px;
+    flex-basis: 95%;
+}
+
+.button {
+    flex-basis: 5%;
+    margin-left: 2%;
+}

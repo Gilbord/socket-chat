@@ -1,0 +1,29 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.upContainer {
+    flex-basis: 97%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.messagesContainer {
+    flex-basis: 90%;
+}
+
+.onlineContainer {
+    border-left: 1px solid black;
+    flex-basis: 10%;
+}
+
+.inputContainer {
+    padding: 1%;
+    background-color: #edeef0;
+    flex-basis: 5%;
+}

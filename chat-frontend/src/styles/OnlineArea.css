@@ -1,0 +1,11 @@
+.onlineAreaContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    overflow-y: auto;
+    padding-top: 5px;
+}
+
+.username {
+    margin-bottom: 2px;
+}
